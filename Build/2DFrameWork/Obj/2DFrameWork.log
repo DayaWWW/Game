@@ -10,23 +10,25 @@
   ObLine.cpp
   ObRect.cpp
   ObStar.cpp
-D:\SGA\1030Scene\2DFrameWork\ObImage.cpp(174,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObImage.cpp(175,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObImage.cpp(217,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObImage.cpp(218,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObImage.cpp(174,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObImage.cpp(175,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObImage.cpp(217,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObImage.cpp(218,29): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   ObTileMap.cpp
   Random.cpp
   SceneManager.cpp
   Shader.cpp
   Sound.cpp
   Texture.cpp
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(119,42): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(121,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(215,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(216,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(223,30): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\Texture.cpp(29,68): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\SGA\1030Scene\2DFrameWork\Texture.cpp(30,69): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(119,42): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(121,41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(215,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(216,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(223,30): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\Texture.cpp(29,68): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\SGA\Game\2DFrameWork\Texture.cpp(30,69): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Timer.cpp
+  Utility.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
@@ -68,19 +70,17 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
               _Iter=wchar_t *,
               _Alloc=std::allocator<char>
           ] (소스 파일 컴파일 중 ObTileMap.cpp)
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(256): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(256): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
           ]
-D:\SGA\1030Scene\2DFrameWork\ObTileMap.cpp(256): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+D:\SGA\Game\2DFrameWork\ObTileMap.cpp(256): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
           ]
-  Timer.cpp
-  Utility.cpp
   Window.cpp
-  2DFrameWork.vcxproj -> D:\SGA\1030Scene\Build\2DFrameWork\2DFrameWork.lib
+  2DFrameWork.vcxproj -> D:\SGA\Game\Build\2DFrameWork\2DFrameWork.lib

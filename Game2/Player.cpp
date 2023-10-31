@@ -125,12 +125,12 @@ void Player::Update()
 			{
 				if (col.GetRotation().y == 0.0f)
 				{
-					bullet[i].Init(GetWorldPos() + Vector2(70, 40), 0);
+					bullet[i].Init(GetWorldPos() + Vector2(70, 50), 0);
 					break;
 				}
 				else	// 왼쪽 방향 볼때 이미지뒤집기
 				{
-					bullet[i].Init(GetWorldPos() + Vector2(-70, 40), PI);
+					bullet[i].Init(GetWorldPos() + Vector2(-70, 50), PI);
 					break;
 				}
 			}

@@ -1,14 +1,3 @@
-﻿  Boss.cpp
-  Bullet.cpp
-  Main.cpp
-  Monster.cpp
-  Player.cpp
-  Scene1.cpp
-  Scene2.cpp
-  Scene3.cpp
-  Scene4.cpp
-  Scene5.cpp
-  Scene6.cpp
-  Scene7.cpp
-     D:\SGA\1030Scene\\Build\Game2.lib 라이브러리 및 D:\SGA\1030Scene\\Build\Game2.exp 개체를 생성하고 있습니다.
-  Game2.vcxproj -> D:\SGA\1030Scene\Build\Game2.exe
+﻿  Bullet.cpp
+     D:\SGA\Game\\Build\Game2.lib 라이브러리 및 D:\SGA\Game\\Build\Game2.exp 개체를 생성하고 있습니다.
+  Game2.vcxproj -> D:\SGA\Game\Build\Game2.exe

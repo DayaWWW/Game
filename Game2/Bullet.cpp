@@ -7,13 +7,14 @@ Bullet::Bullet()
 	active = false;
 	SetPivot() = OFFSET_T;
 	isFilled = false;
-	SetScale().x = 60.0f;
-	SetScale().y = 70.0f;
+	SetScale().x = 40.0f;
+	SetScale().y = 35.0f;
 
 	bulletImg.LoadFile(L"Player/sprCottonBulletDefault.png");
 	bulletImg.maxFrame.x = 1;
 	bulletImg.SetScale().x = bulletImg.imageSize.x * 2.0f / 1.0f;
 	bulletImg.SetScale().y = bulletImg.imageSize.y * 2.0f;
+	bulletImg.SetWorldPos(Vector2(0.0f, 5.0f));
 	bulletImg.SetPivot() = OFFSET_T;
 	bulletImg.SetParentRT(*this);
 	bulletImg.ChangeAnim(ANIMSTATE::LOOP, 0.1f);
